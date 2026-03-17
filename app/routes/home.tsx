@@ -23,12 +23,14 @@ const iconStylesByFeature = {
   jobs: 'from-green-400 to-teal-600',
   'resume-intelligence-suite': 'from-blue-400 to-blue-600',
   'interview-qa-generator': 'from-purple-400 to-purple-600',
+  'mock-interview': 'from-indigo-400 to-fuchsia-600',
 } as const;
 
 const iconPathsByFeature = {
   jobs: 'M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z',
   'resume-intelligence-suite': 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z',
   'interview-qa-generator': 'M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z',
+  'mock-interview': 'M9 19V6l12-3v13M9 19c0 1.105-1.79 2-4 2s-4-.895-4-2 1.79-2 4-2 4 .895 4 2zm12-3c0 1.105-1.79 2-4 2s-4-.895-4-2 1.79-2 4-2 4 .895 4 2z',
 } as const;
 
 export default function Home() {
