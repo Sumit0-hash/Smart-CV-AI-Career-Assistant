@@ -1,5 +1,5 @@
 export interface FeatureDefinition {
-  key: 'jobs' | 'resume-intelligence-suite' | 'interview-qa-generator' | 'mock-interview';
+  key: 'jobs' | 'resume-intelligence-suite' | 'interview-qa-generator';
   title: string;
   description: string;
   path: string;
@@ -18,13 +18,6 @@ export const FEATURE_DEFINITIONS: FeatureDefinition[] = [
     description:
       'AI-powered deep resume analysis with ATS scoring, tone & readability insights, strengths & weaknesses, skill gap detection, and a personalized improvement roadmap with learning and certification suggestions.',
     path: '/resume-intelligence-suite',
-  },
-  {
-    key: 'mock-interview',
-    title: 'MERN AI Mock Interview (Voice)',
-    description:
-      'Run a 7-question voice interview with Azure Speech STT/TTS and Gemini-powered scoring, feedback, and final report history.',
-    path: '/mock-interview',
   },
   {
     key: 'interview-qa-generator',
