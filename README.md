@@ -11,10 +11,16 @@ A comprehensive career platform featuring AI-powered resume analysis, interview 
 - Resume history and tracking
 
 ### 💼 Interview Question Generator (NEW!)
-- Generate custom interview questions using OpenAI
+- Generate custom interview questions using Gemini
 - Tailored to job title, experience level, and description
 - Questions categorized by type and difficulty
 - Regenerate for fresh questions anytime
+
+### 🎤 AI Mock Interview (NEW!)
+- Configure role, experience, and interview type
+- Voice answers with MediaRecorder and browser TTS playback
+- AssemblyAI transcription + Gemini answer evaluation
+- Final scoring, feedback summary, and interview history
 
 ### 🔍 Job Search Module (NEW!)
 - Real-time job listings via JSearch API
@@ -50,6 +56,7 @@ Create a `.env` file (see `.env.example`):
 ```bash
 GEMINI_API_KEY=your_gemini_api_key_here
 VITE_JSEARCH_API_KEY=your_jsearch_api_key_here
+VITE_MOCK_INTERVIEW_API_URL=http://localhost:5001/api/mock-interviews
 SESSION_SECRET=replace_with_a_long_random_string
 ```
 
@@ -61,6 +68,17 @@ npm run dev
 ```
 
 Visit `http://localhost:5173`
+
+### 4. Run AI Mock Interview Backend (separate service)
+```bash
+cd mock-interview-backend
+npm install
+cp .env.example .env
+npm run dev
+```
+
+Backend default URL: `http://localhost:5001`
+
 
 ## Documentation
 
