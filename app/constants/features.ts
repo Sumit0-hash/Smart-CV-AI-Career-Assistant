@@ -1,5 +1,5 @@
 export interface FeatureDefinition {
-  key: 'jobs' | 'resume-intelligence-suite' | 'interview-qa-generator';
+  key: 'jobs' | 'resume-intelligence-suite' | 'interview-qa-generator' | 'ai-mock-interview';
   title: string;
   description: string;
   path: string;
@@ -18,6 +18,13 @@ export const FEATURE_DEFINITIONS: FeatureDefinition[] = [
     description:
       'AI-powered deep resume analysis with ATS scoring, tone & readability insights, strengths & weaknesses, skill gap detection, and a personalized improvement roadmap with learning and certification suggestions.',
     path: '/resume-intelligence-suite',
+  },
+  {
+    key: 'ai-mock-interview',
+    title: 'AI Mock Interview',
+    description:
+      'Run a full voice mock interview with AI-generated questions, instant transcript evaluation, and final performance feedback.',
+    path: '/ai-mock-interview',
   },
   {
     key: 'interview-qa-generator',
