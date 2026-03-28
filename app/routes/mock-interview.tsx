@@ -47,20 +47,34 @@ export default function MockInterviewPage() {
     try {
       setBusy(true);
       setError(null);
+
       const session = await createInterviewSession({
-        jobRole,
+        jobRole: jobRole.trim(),
         experienceLevel,
         interviewType,
       });
+
+      console.log('Interview session created:', session);
+
+      if (!session) {
+        throw new Error('No session returned from createInterviewSession');
+      }
+
       setCurrentSession(session);
       setCurrentQuestionIndex(0);
-    } catch (err) {
-      setError('Failed to start interview. Please try again.');
+    } catch (err: any) {
+      console.error('createSession error:', err);
+
+      const message =
+        err?.response?.data?.message ||
+        err?.message ||
+        'Failed to start interview. Please try again.';
+
+      setError(message);
     } finally {
       setBusy(false);
     }
   };
-
   const submitAnswer = async () => {
     if (!currentSession || !currentQuestion) return;
 

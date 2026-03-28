@@ -1,0 +1,109 @@
+{
+  "sessions": [
+    {
+      "_id": "b5dd3a17-1f38-4915-80b3-91ac2f812849",
+      "userId": "sumitbhatia900@gmail.com",
+      "jobRole": "Frontend Developer",
+      "experienceLevel": "Junior",
+      "interviewType": "Technical",
+      "status": "in_progress",
+      "questions": [
+        {
+          "_id": "77cd432b-e485-481a-bec3-39979ff8a8f4",
+          "question": "Explain the CSS box model and how `box-sizing: border-box;` changes its behavior.",
+          "transcript": "",
+          "audioMimeType": "",
+          "evaluation": {
+            "score": 0,
+            "strengths": [],
+            "weaknesses": [],
+            "improvements": [],
+            "feedback": ""
+          }
+        },
+        {
+          "_id": "3c29ddcf-a952-4172-a679-5b877db12e38",
+          "question": "Describe the difference between `let`, `const`, and `var` in JavaScript with an example.",
+          "transcript": "",
+          "audioMimeType": "",
+          "evaluation": {
+            "score": 0,
+            "strengths": [],
+            "weaknesses": [],
+            "improvements": [],
+            "feedback": ""
+          }
+        },
+        {
+          "_id": "9df3e113-85b7-43b4-8262-6af16c952386",
+          "question": "How do you manipulate the DOM using JavaScript? Provide an example of changing an element's text.",
+          "transcript": "",
+          "audioMimeType": "",
+          "evaluation": {
+            "score": 0,
+            "strengths": [],
+            "weaknesses": [],
+            "improvements": [],
+            "feedback": ""
+          }
+        },
+        {
+          "_id": "2e8b6b95-97ec-4ff2-8a0b-972824fece74",
+          "question": "What is a component in a frontend framework like React or Vue, and why are they used?",
+          "transcript": "",
+          "audioMimeType": "",
+          "evaluation": {
+            "score": 0,
+            "strengths": [],
+            "weaknesses": [],
+            "improvements": [],
+            "feedback": ""
+          }
+        },
+        {
+          "_id": "ec180729-873e-417b-a268-b9ab7ad9f95f",
+          "question": "You encounter a bug where a button click doesn't work. How would you start debugging this issue in the browser?",
+          "transcript": "",
+          "audioMimeType": "",
+          "evaluation": {
+            "score": 0,
+            "strengths": [],
+            "weaknesses": [],
+            "improvements": [],
+            "feedback": ""
+          }
+        },
+        {
+          "_id": "b5481b04-9e70-416e-883b-b3b2a4c9b904",
+          "question": "List two common ways to optimize a website's loading performance for a better user experience.",
+          "transcript": "",
+          "audioMimeType": "",
+          "evaluation": {
+            "score": 0,
+            "strengths": [],
+            "weaknesses": [],
+            "improvements": [],
+            "feedback": ""
+          }
+        },
+        {
+          "_id": "e06b3b44-09e3-462e-ac86-3e3692e76a08",
+          "question": "Explain the purpose of Git and describe the workflow for pushing local changes to a remote repository.",
+          "transcript": "",
+          "audioMimeType": "",
+          "evaluation": {
+            "score": 0,
+            "strengths": [],
+            "weaknesses": [],
+            "improvements": [],
+            "feedback": ""
+          }
+        }
+      ],
+      "overallScore": 0,
+      "overallFeedback": "",
+      "createdAt": "2026-03-17T11:26:26.659Z",
+      "updatedAt": "2026-03-17T11:26:26.659Z"
+    }
+  ]
+}

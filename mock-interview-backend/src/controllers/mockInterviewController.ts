@@ -68,7 +68,8 @@ export async function answerQuestion(req: Request, res: Response) {
     let transcript = '';
     try {
       transcript = await transcribeAudio(audioFile.buffer);
-    } catch {
+    } catch (err) {
+      console.error("Transcription Error:", err);
       transcript = 'Transcription service unavailable. Please retry this question later.';
     }
 
